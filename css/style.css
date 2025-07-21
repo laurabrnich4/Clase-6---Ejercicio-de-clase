@@ -16,15 +16,20 @@ header{
     color: white;
 }
 
-nav{
-    margin-top: 10px;
+h1{
+    margin-left: 17px;
+    font-size: 25px;
     padding: 5px 0;
-    /* margin-bottom: 50px; */
+}
+
+nav{
+    padding: 4px 0;
 }
 
 nav a{
     color: white;
     text-decoration: none;
+    margin-left: 17px;
 }
 
 
@@ -32,8 +37,28 @@ nav a{
 
 .hero{
     background-color: white;
-    padding: 20px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(../imagen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 30.4vh;
     text-align: center;
+}
+
+.seccion{
+    background-color: white;
+    margin: 24px 290px;
+    padding: 18px 25px;
+}
+
+.seccion h4{
+    color: #203A88;
+    margin-bottom: 10px;
+}
+
+.seccion p{
+    font-size: small;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 

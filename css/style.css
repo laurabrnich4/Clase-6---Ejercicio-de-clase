@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #d8dbdd;
+}
+
+
+/* HEADER */
+
+header{
+    background-color: #203A88;
+    color: white;
+}
+
+nav{
+    margin-top: 10px;
+    padding: 5px 0;
+    /* margin-bottom: 50px; */
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* MAIN */
+
+.hero{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: #203A88;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

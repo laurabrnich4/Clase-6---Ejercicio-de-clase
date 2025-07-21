@@ -37,12 +37,20 @@ nav a{
 
 .hero{
     background-color: white;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(../imagen.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../imagen.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
-    height: 30.4vh;
+    background-position: center;
+    height: 31.5vh;
     text-align: center;
+}
+
+.hero h2{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 12px;
+    margin: 0 470px;
+    border-radius: 7px;
 }
 
 .seccion{
